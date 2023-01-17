@@ -72,8 +72,12 @@ body {
 .card__stats {
     display: flex;
     justify-content: space-between;
-    padding: 1.563rem 2.5rem;
+    padding: 1.563rem 2rem;
     border-top: 1px solid #E9E9E9;
+}
+
+.card__stat {
+    width: 30%;
 }
 
 .card__stat-number {
@@ -110,6 +114,10 @@ body {
     }
     .card__stats {
         flex-direction: column;
+    }
+
+    .card__stat {
+        width: 100%;
     }
 
     .card__stat:not(:last-child) {
