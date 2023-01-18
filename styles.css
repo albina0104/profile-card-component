@@ -36,6 +36,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto 8.75rem;
     text-align: center;
+    box-shadow: 0 20px 45px 10px rgba(0, 0, 0, 0.2);
 }
 
 .img-bg-container {
