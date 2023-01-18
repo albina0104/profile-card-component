@@ -150,6 +150,13 @@ body {
     }
 }
 
+/* To prevent elements overlap when attribution is 2 rows on narrow screen */
+@media screen and (max-width: 20rem) {
+    body {
+        padding: 1.2rem 0 2.4rem 0;
+    }
+}
+
 @media screen and (max-width: 37.5rem) {
     .img-bg-top {
         right: 43%;
