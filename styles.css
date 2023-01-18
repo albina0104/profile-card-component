@@ -38,6 +38,30 @@ body {
     text-align: center;
 }
 
+.img-bg-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.img-bg {
+    position: absolute;
+}
+
+.img-bg-top {
+    right: 52%;
+    bottom: 35%;
+}
+
+.img-bg-bottom {
+    top: 52%;
+    left: 48%;
+}
+
 .card__avatar {
     border-radius: 50%;
     border: 4px solid white;
@@ -112,6 +136,7 @@ body {
     .card {
         min-width: 12.5rem;
     }
+
     .card__stats {
         flex-direction: column;
     }
@@ -122,6 +147,18 @@ body {
 
     .card__stat:not(:last-child) {
         padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 37.5rem) {
+    .img-bg-top {
+        right: 43%;
+        bottom: 41%;
+    }
+    
+    .img-bg-bottom {
+        top: 45%;
+        left: 39%;
     }
 }
 
